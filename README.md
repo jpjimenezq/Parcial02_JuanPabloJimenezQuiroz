@@ -61,3 +61,22 @@ Para integrar un servicio de historial externo que almacene los cálculos en una
 5. **Configuración externa**: URLs y parámetros del servicio de historial
 
 Con arquitectura nos permite escalar independiente de ambos servicios y mantiene la responsabilidad única de cada uno
+
+## Funcionamiento
+
+### Servidor corriendo
+<img width="1098" height="270" alt="image" src="https://github.com/user-attachments/assets/e78baa05-62d0-4b6e-af29-5e636855e68b" />
+
+### Funcionamiento ruta inicial (Explicacion de uso)
+<img width="1099" height="319" alt="image" src="https://github.com/user-attachments/assets/40a40dd1-59e9-4f10-840d-92d842c48fe7" />
+
+### Ruta /numero/<numero>
+<img width="642" height="351" alt="image" src="https://github.com/user-attachments/assets/f335ed6b-6c34-4ba6-9cca-d2fc7e65a703" />
+
+### Proteccion de errores (Valores que no son numero o numeros negativos)
+<img width="852" height="277" alt="image" src="https://github.com/user-attachments/assets/5300d1f5-8489-4e5b-a338-4179d53be520" />
+<img width="697" height="274" alt="image" src="https://github.com/user-attachments/assets/1d026313-8d73-427a-b9f3-6ba3594ea747" />
+
+
+
+
